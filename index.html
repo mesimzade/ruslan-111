@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ruslan Huseynov – Executive Chef</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ========== HERO / LANDING PAGE ========== -->
+  <section id="hero" class="hero-section">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-photo-wrapper">
+        <img src="images/chef-photo.jpg" alt="Ruslan Huseynov" class="hero-photo" />
+        <div class="photo-ring"></div>
+      </div>
+      <div class="hero-text">
+        <div class="hero-badge"><i class="fas fa-star"></i> Executive Chef</div>
+        <h1 class="hero-name">Ruslan Huseynov</h1>
+        <p class="hero-sub">20+ il Beynəlxalq Aşpazlıq Təcrübəsi</p>
+        <div class="hero-flags">
+          <span title="Azərbaycan">🇦🇿</span>
+          <span title="Türkiyə">🇹🇷</span>
+          <span title="Tunis">🇹🇳</span>
+          <span title="Rusiya">🇷🇺</span>
+          <span title="Avropa Birliyi">🇪🇺</span>
+          <span title="Dünya">🌍</span>
+        </div>
+        <div class="hero-contacts">
+          <a href="tel:+994555553588"><i class="fas fa-phone"></i> +994 55 555 35 88</a>
+          <a href="mailto:ruslan.cooking@gmail.com"><i class="fas fa-envelope"></i> ruslan.cooking@gmail.com</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- NAVIGATION CARDS -->
+    <div class="nav-cards">
+      <div class="nav-card" onclick="openSection('experience')">
+        <div class="nav-card-icon"><i class="fas fa-briefcase"></i></div>
+        <h3>İş Təcrübəsi</h3>
+        <p>20 ildən çox karyera yolu</p>
+        <span class="nav-arrow"><i class="fas fa-chevron-right"></i></span>
+      </div>
+      <div class="nav-card" onclick="openSection('skills')">
+        <div class="nav-card-icon"><i class="fas fa-utensils"></i></div>
+        <h3>Bacarıqlar</h3>
+        <p>Professional mətbəx kompetensiyaları</p>
+        <span class="nav-arrow"><i class="fas fa-chevron-right"></i></span>
+      </div>
+      <div class="nav-card" onclick="openSection('achievements')">
+        <div class="nav-card-icon"><i class="fas fa-trophy"></i></div>
+        <h3>Nailiyyətlər</h3>
+        <p>Beynəlxalq medal və mükafatlar</p>
+        <span class="nav-arrow"><i class="fas fa-chevron-right"></i></span>
+      </div>
+      <div class="nav-card" onclick="openSection('education')">
+        <div class="nav-card-icon"><i class="fas fa-graduation-cap"></i></div>
+        <h3>Təhsil & Sertifikatlar</h3>
+        <p>Diplomlar və peşə sertifikatları</p>
+        <span class="nav-arrow"><i class="fas fa-chevron-right"></i></span>
+      </div>
+      <div class="nav-card" onclick="openSection('languages')">
+        <div class="nav-card-icon"><i class="fas fa-globe"></i></div>
+        <h3>Dillər & Proqramlar</h3>
+        <p>Dil bilikləri və texniki bacarıqlar</p>
+        <span class="nav-arrow"><i class="fas fa-chevron-right"></i></span>
+      </div>
+      <div class="nav-card" onclick="openSection('contact')">
+        <div class="nav-card-icon"><i class="fas fa-address-card"></i></div>
+        <h3>Əlaqə</h3>
+        <p>Bizimlə əlaqə saxlayın</p>
+        <span class="nav-arrow"><i class="fas fa-chevron-right"></i></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== OVERLAY SECTIONS ========== -->
+  <div class="section-overlay" id="overlay" onclick="closeSection()"></div>
+
+  <!-- EXPERIENCE SECTION -->
+  <div class="inner-section" id="section-experience">
+    <div class="inner-header">
+      <button class="back-btn" onclick="closeSection()"><i class="fas fa-arrow-left"></i> Geri</button>
+      <h2><i class="fas fa-briefcase"></i> İş Təcrübəsi</h2>
+    </div>
+    <div class="inner-body">
+      <div class="timeline">
+
+        <div class="timeline-item current">
+          <div class="timeline-dot"><i class="fas fa-star"></i></div>
+          <div class="timeline-content">
+            <span class="tl-date">2024 – İndiki</span>
+            <h3>Executive Chef</h3>
+            <h4><i class="fas fa-hotel"></i> QAFQAZ Baku City Hotel</h4>
+            <p>Bakının prestijli otellərindən birinin mətbəxinə rəhbərlik. Beynəlxalq müştərilər üçün yüksək keyfiyyətli kulinarlıq xidmətlərinin təmin edilməsi.</p>
+            <div class="tl-badge current-badge">Hazırki iş yeri</div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="tl-date">2022 – 2024</span>
+            <h3>Executive Chef</h3>
+            <h4><i class="fas fa-hotel"></i> Grand Midway Hotel Baku</h4>
+            <p>Beynəlxalq standartlara uyğun mətbəx idarəçiliyi, banket və a la carte xidmətlərinin koordinasiyası.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="tl-date">2021 – 2022</span>
+            <h3>Executive Chef</h3>
+            <h4><i class="fas fa-utensils"></i> Restoran Noğul</h4>
+            <p>Restoran mətbəxinin tam idarəsi, menyu hazırlama və komanda rəhbərliyi.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="tl-date">2020 – 2021</span>
+            <h3>Executive Chef</h3>
+            <h4><i class="fas fa-hotel"></i> Supreme Hotel Baku</h4>
+            <p>Lüks hotel mətbəxinin idarə edilməsi, yüksək keyfiyyətli qonaq xidmətinin təmin edilməsi.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="tl-date">2015 – 2020</span>
+            <h3>Banquet Chef / Head Butcher</h3>
+            <h4><i class="fas fa-hotel"></i> Holiday Inn Baku Hotel</h4>
+            <p>Beynəlxalq zəncirin Bakı filialında banket mətbəxinin rəhbəri. 5 il ərzində böyük tədbirlərin kulinar hissəsinin koordinasiyası.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="tl-date">2013 – 2015</span>
+            <h3>Head Chef</h3>
+            <h4><i class="fas fa-umbrella-beach"></i> Palmarine Hotel & Resort – Türkiyə</h4>
+            <p>Türkiyənin tanınmış otel-resortunun mətbəx rəhbəri. Beynəlxalq kulinarlıq standartlarının tətbiqi.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="tl-date">2011 – 2013</span>
+            <h3>Sous Chef</h3>
+            <h4><i class="fas fa-utensils"></i> Restoran Sumağ – Milli Mətbəx</h4>
+            <p>Azərbaycan milli mətbəxinin ən yaxşı restoranlarından birində sous chef vəzifəsi.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="tl-date">2010 – 2011</span>
+            <h3>Chef de Partie</h3>
+            <h4><i class="fas fa-utensils"></i> Restoran Amburan</h4>
+            <p>Chef de partie kimi mətbəxin müəyyən bölmələrinin idarə edilməsi.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="tl-date">2008 – 2010</span>
+            <h3>Sous Chef (Demichef)</h3>
+            <h4><i class="fas fa-utensils"></i> Restoran 5 Qazan – 5 Ölkənin Mətbəxi</h4>
+            <p>Beş ölkənin milli mətbəxini təmsil edən restoranda aşpaz köməkçisi vəzifəsi.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="tl-date">2007 – 2008</span>
+            <h3>Commis</h3>
+            <h4><i class="fas fa-utensils"></i> Vasko Italian Restaurant</h4>
+            <p>İtalyan mətbəxinin sirlərini öyrənmək üçün ilk peşəkar addım.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="tl-date">2006 – 2007</span>
+            <h3>Commis</h3>
+            <h4><i class="fas fa-hotel"></i> ISR Plaza Hotel</h4>
+            <p>Karyeranın başlanğıcı. Beynəlxalq otel standartları ilə ilk tanışlıq.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- SKILLS SECTION -->
+  <div class="inner-section" id="section-skills">
+    <div class="inner-header">
+      <button class="back-btn" onclick="closeSection()"><i class="fas fa-arrow-left"></i> Geri</button>
+      <h2><i class="fas fa-utensils"></i> Bacarıqlar</h2>
+    </div>
+    <div class="inner-body">
+      <div class="skills-intro">
+        <p>HACCP, qida təhlükəsizliyi və mətbəx idarəçiliyi sahəsində 20 ildən artıq peşəkar təcrübəyə əsaslanan kompleks bacarıqlar.</p>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fas fa-shield-alt"></i></div>
+          <h3>HACCP & Qida Təhlükəsizliyi</h3>
+          <p>HACCP qaydalarına uyğun iş proseslərinin təşkili və nəzarəti. Qida təhlükəsizliyi standartlarına uyğunluğun tam təmini.</p>
+          <div class="skill-level">
+            <div class="skill-bar" data-width="97"></div>
+          </div>
+          <span class="skill-percent">97%</span>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fas fa-soap"></i></div>
+          <h3>Sanitariya & Gigiyena</h3>
+          <p>Sanitariya və gigiyena standartlarına ciddi riayət olunması. Mətbəx sterilliyi və iş mühitinin sağlamlığının qorunması.</p>
+          <div class="skill-level">
+            <div class="skill-bar" data-width="98"></div>
+          </div>
+          <span class="skill-percent">98%</span>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fas fa-tasks"></i></div>
+          <h3>Mətbəx İdarəçiliyi</h3>
+          <p>Mətbəxin ümumi idarə olunması və iş proseslərinin koordinasiyası. Böyük komandaların effektiv idarə edilməsi.</p>
+          <div class="skill-level">
+            <div class="skill-bar" data-width="95"></div>
+          </div>
+          <span class="skill-percent">95%</span>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fas fa-box-open"></i></div>
+          <h3>Məhsul Keyfiyyət Nəzarəti</h3>
+          <p>Məhsulların düzgün saxlanması, keyfiyyətinə nəzarət və tədarük zəncirinin optimallaşdırılması.</p>
+          <div class="skill-level">
+            <div class="skill-bar" data-width="96"></div>
+          </div>
+          <span class="skill-percent">96%</span>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fas fa-dollar-sign"></i></div>
+          <h3>Cost Control (Xərc Nəzarəti)</h3>
+          <p>Resursların effektiv idarə olunması, büdcə planlaması və xərclərin optimallaşdırılması.</p>
+          <div class="skill-level">
+            <div class="skill-bar" data-width="90"></div>
+          </div>
+          <span class="skill-percent">90%</span>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fas fa-users"></i></div>
+          <h3>Komanda Rəhbərliyi</h3>
+          <p>Komanda idarəetməsi, iş bölgüsünün təşkili, işçi heyətin inkişafına dəstək və motivasiya.</p>
+          <div class="skill-level">
+            <div class="skill-bar" data-width="94"></div>
+          </div>
+          <span class="skill-percent">94%</span>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+          <h3>Kadr Hazırlığı & Təlim</h3>
+          <p>İşçi heyət üçün peşəkar təlimlərin keçirilməsi, mentorluq və inkişaf proqramlarının hazırlanması.</p>
+          <div class="skill-level">
+            <div class="skill-bar" data-width="92"></div>
+          </div>
+          <span class="skill-percent">92%</span>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fas fa-drumstick-bite"></i></div>
+          <h3>Butcher & Et İşlənməsi</h3>
+          <p>Head Butcher kimi yüksək peşəkarlıq. Ət növlərinin seçimi, işlənməsi və keyfiyyət nəzarəti.</p>
+          <div class="skill-level">
+            <div class="skill-bar" data-width="93"></div>
+          </div>
+          <span class="skill-percent">93%</span>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fas fa-globe-americas"></i></div>
+          <h3>Beynəlxalq Mətbəxlər</h3>
+          <p>Azərbaycan, Türk, İtalyan, Avropa və digər milli mətbəxlərin dərin bilikləri.</p>
+          <div class="skill-level">
+            <div class="skill-bar" data-width="95"></div>
+          </div>
+          <span class="skill-percent">95%</span>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fas fa-glass-cheers"></i></div>
+          <h3>Banket & Tədbirlər</h3>
+          <p>Böyük miqyaslı banket tədbirlərinin planlaşdırılması, menyu hazırlama və icra edilməsi.</p>
+          <div class="skill-level">
+            <div class="skill-bar" data-width="96"></div>
+          </div>
+          <span class="skill-percent">96%</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ACHIEVEMENTS SECTION -->
+  <div class="inner-section" id="section-achievements">
+    <div class="inner-header">
+      <button class="back-btn" onclick="closeSection()"><i class="fas fa-arrow-left"></i> Geri</button>
+      <h2><i class="fas fa-trophy"></i> Nailiyyətlər</h2>
+    </div>
+    <div class="inner-body">
+      <div class="achievements-intro">
+        <p>Beynəlxalq aşpazlıq yarışmalarında qazanılmış medal və mükafatlar – 20 ildən artıq peşəkar fəaliyyətin nəticəsi.</p>
+      </div>
+
+      <div class="medals-showcase">
+        <div class="medal-card gold top-medal">
+          <div class="medal-icon">🥇🥇</div>
+          <div class="medal-info">
+            <span class="medal-year">2025</span>
+            <h3>2 Qızıl Medal + 1 Kubok</h3>
+            <h4>Türkiyə Gastronomi Festivalı</h4>
+            <p>Beynəlxalq Aşpazlar Yarışması – Türkiyə</p>
+            <div class="medal-badge gold-badge">🏆 Qızıl Medal × 2 + Kubok</div>
+          </div>
+        </div>
+
+        <div class="medal-card gold">
+          <div class="medal-icon">🥇</div>
+          <div class="medal-info">
+            <span class="medal-year">2024</span>
+            <h3>1 Qızıl Medal</h3>
+            <h4>İstanbul Aşpazlar Festivalı</h4>
+            <p>Türkiyə Beynəlxalq Aşpazlıq Yarışması – İstanbul, Türkiyə</p>
+            <div class="medal-badge gold-badge">🥇 Qızıl Medal</div>
+          </div>
+        </div>
+
+        <div class="medal-card bronze">
+          <div class="medal-icon">🥉</div>
+          <div class="medal-info">
+            <span class="medal-year">2023</span>
+            <h3>Bürünc Medal</h3>
+            <h4>Kazan Chefs Cup</h4>
+            <p>Beynəlxalq Aşpazlar Yarışması – Kazan, Rusiya</p>
+            <div class="medal-badge bronze-badge">🥉 Bürünc Medal</div>
+          </div>
+        </div>
+
+        <div class="medal-card bronze">
+          <div class="medal-icon">🥉</div>
+          <div class="medal-info">
+            <span class="medal-year">2022</span>
+            <h3>Bürünc Medal</h3>
+            <h4>Beynəlxalq Aşpazlar Yarışması</h4>
+            <p>Tunis, Beynəlxalq Miqyaslı Yarışma</p>
+            <div class="medal-badge bronze-badge">🥉 Bürünc Medal</div>
+          </div>
+        </div>
+
+        <div class="medal-card special">
+          <div class="medal-icon">🏅</div>
+          <div class="medal-info">
+            <span class="medal-year">2019</span>
+            <h3>Qızıl Şah</h3>
+            <h4>Azərbaycan Aşpazlar Yarışması</h4>
+            <p>Qızıl Şah – Azərbaycan Milli Aşpazlıq Yarışması</p>
+            <div class="medal-badge special-badge">⭐ Xüsusi Mükafat</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="memberships">
+        <h3><i class="fas fa-certificate"></i> Üzvlüklər & Assosiasiyalar</h3>
+        <div class="membership-grid">
+          <div class="membership-item">
+            <i class="fas fa-award"></i>
+            <div>
+              <strong>The Golden Falcons Culinary Association</strong>
+              <span>Üzv – 2024-cü ildən</span>
+            </div>
+          </div>
+          <div class="membership-item">
+            <i class="fas fa-award"></i>
+            <div>
+              <strong>Baku Culinary Association</strong>
+              <span>Senior Member (Baş Üzv)</span>
+            </div>
+          </div>
+          <div class="membership-item">
+            <i class="fas fa-award"></i>
+            <div>
+              <strong>Chefs League International Association</strong>
+              <span>Beynəlxalq Aşpazlar Liqasının Üzvü</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Certificates Photo -->
+      <div class="certs-photo-section">
+        <h3><i class="fas fa-images"></i> Sertifikat və Mükafatlar</h3>
+        <div class="cert-photo-container">
+          <img src="images/certificates.jpg" alt="Sertifikatlar" class="cert-photo" onclick="openLightbox(this.src)" />
+          <p class="cert-photo-caption">Beynəlxalq sertifikatlar, üzvlük diplomatları və mükafatlar</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- EDUCATION SECTION -->
+  <div class="inner-section" id="section-education">
+    <div class="inner-header">
+      <button class="back-btn" onclick="closeSection()"><i class="fas fa-arrow-left"></i> Geri</button>
+      <h2><i class="fas fa-graduation-cap"></i> Təhsil & Sertifikatlar</h2>
+    </div>
+    <div class="inner-body">
+
+      <div class="education-grid">
+        <div class="edu-card formal">
+          <div class="edu-icon"><i class="fas fa-school"></i></div>
+          <div class="edu-info">
+            <span class="edu-tag">Orta Təhsil</span>
+            <h3>Tam Orta Məktəb</h3>
+            <p>Azərbaycan Respublikası ümumi orta təhsil</p>
+          </div>
+        </div>
+
+        <div class="edu-card formal">
+          <div class="edu-icon"><i class="fas fa-utensils"></i></div>
+          <div class="edu-info">
+            <span class="edu-tag">Peşə Təhsili</span>
+            <h3>Aşpazlıq Litseyi</h3>
+            <p>Kulinariya ixtisaslaşması üzrə peşə liseyi</p>
+          </div>
+        </div>
+
+        <div class="edu-card formal highlight">
+          <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+          <div class="edu-info">
+            <span class="edu-tag">Ali Peşə Təhsili</span>
+            <h3>Master CC Academy – Fəxri Diplom</h3>
+            <p>Azərbaycan Respublikası Peşə İxtisası Haqqında <strong>Fəxri Diplom</strong> (HONORS DIPLOMA)</p>
+            <p>Sertifikat No: CC №153905 | Aşpaz ixtisası | 2023–2024</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Diplomas Photo -->
+      <div class="diplomas-photo-section">
+        <h3><i class="fas fa-scroll"></i> Rəsmi Diplomlar</h3>
+        <div class="diploma-photo-container">
+          <img src="images/diplomas.jpg" alt="Diplomlar" class="diploma-photo" onclick="openLightbox(this.src)" />
+          <div class="diploma-labels">
+            <div class="diploma-label">
+              <i class="fas fa-medal"></i>
+              <div>
+                <strong>HONORS DIPLOMA</strong>
+                <span>Azerbaijan Republic Vocational Qualification</span>
+              </div>
+            </div>
+            <div class="diploma-label">
+              <i class="fas fa-certificate"></i>
+              <div>
+                <strong>FƏXRI DIPLOM</strong>
+                <span>Azərbaycan Respublikası Peşə İxtisası</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Certificates list -->
+      <div class="cert-list">
+        <h3><i class="fas fa-certificate"></i> Peşə Sertifikatları</h3>
+        <div class="cert-items">
+          <div class="cert-item">
+            <i class="fas fa-award"></i>
+            <div>
+              <strong>Master CC Academy – Sertifikat</strong>
+              <span>Aşpaz kursu | 04.12.2023 – 08.04.2024 | Qeyd. No: CC 122880</span>
+            </div>
+          </div>
+          <div class="cert-item">
+            <i class="fas fa-award"></i>
+            <div>
+              <strong>The Golden Falcons Culinary Association – Üzvlük Sertifikatı</strong>
+              <span>Beynəlxalq aşpazlar assosiasiyasına üzvlük | 2024</span>
+            </div>
+          </div>
+          <div class="cert-item">
+            <i class="fas fa-award"></i>
+            <div>
+              <strong>Baku Culinary Association – Senior Member</strong>
+              <span>Bakı Kulinariya Assosiasiyasının Baş Üzvü</span>
+            </div>
+          </div>
+          <div class="cert-item">
+            <i class="fas fa-award"></i>
+            <div>
+              <strong>Chefs League International – Sertifikat</strong>
+              <span>Beynəlxalq Aşpazlar Liqası | 17–19 Noyabr 2023, İstanbul</span>
+            </div>
+          </div>
+          <div class="cert-item">
+            <i class="fas fa-award"></i>
+            <div>
+              <strong>Niğde Gastronomy Festival – Sertifikat</strong>
+              <span>Beynəlxalq festival iştirak sertifikatı – Türkiyə</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- LANGUAGES & PROGRAMS SECTION -->
+  <div class="inner-section" id="section-languages">
+    <div class="inner-header">
+      <button class="back-btn" onclick="closeSection()"><i class="fas fa-arrow-left"></i> Geri</button>
+      <h2><i class="fas fa-globe"></i> Dillər & Proqramlar</h2>
+    </div>
+    <div class="inner-body">
+      <div class="lang-prog-container">
+
+        <div class="lang-section">
+          <h3><i class="fas fa-language"></i> Dil Bilikləri</h3>
+          <div class="lang-cards">
+            <div class="lang-card">
+              <div class="lang-flag">🇦🇿</div>
+              <div class="lang-info">
+                <h4>Azərbaycan dili</h4>
+                <p>Ana dili</p>
+              </div>
+              <div class="lang-stars">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                <i class="fas fa-star"></i><i class="fas fa-star"></i>
+              </div>
+              <span class="lang-level native">Əla</span>
+            </div>
+            <div class="lang-card">
+              <div class="lang-flag">🇷🇺</div>
+              <div class="lang-info">
+                <h4>Rus dili</h4>
+                <p>İkinci dil</p>
+              </div>
+              <div class="lang-stars">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                <i class="fas fa-star"></i><i class="fas fa-star"></i>
+              </div>
+              <span class="lang-level native">Əla</span>
+            </div>
+            <div class="lang-card">
+              <div class="lang-flag">🇹🇷</div>
+              <div class="lang-info">
+                <h4>Türk dili</h4>
+                <p>Peşəkar səviyyə</p>
+              </div>
+              <div class="lang-stars">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                <i class="fas fa-star"></i><i class="fas fa-star"></i>
+              </div>
+              <span class="lang-level native">Əla</span>
+            </div>
+            <div class="lang-card">
+              <div class="lang-flag">🇬🇧</div>
+              <div class="lang-info">
+                <h4>İngilis dili</h4>
+                <p>Orta-yuxarı səviyyə</p>
+              </div>
+              <div class="lang-stars">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                <i class="fas fa-star"></i><i class="far fa-star"></i>
+              </div>
+              <span class="lang-level good">Yaxşı</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="prog-section">
+          <h3><i class="fas fa-laptop"></i> Kompüter Bilikləri</h3>
+          <div class="prog-grid">
+            <div class="prog-item">
+              <div class="prog-icon"><i class="fab fa-windows"></i></div>
+              <div class="prog-info">
+                <h4>MS Windows / Opera</h4>
+                <div class="prog-bar-container">
+                  <div class="prog-bar" data-width="90"></div>
+                </div>
+              </div>
+            </div>
+            <div class="prog-item">
+              <div class="prog-icon"><i class="fas fa-file-word"></i></div>
+              <div class="prog-info">
+                <h4>MS Word</h4>
+                <div class="prog-bar-container">
+                  <div class="prog-bar" data-width="85"></div>
+                </div>
+              </div>
+            </div>
+            <div class="prog-item">
+              <div class="prog-icon"><i class="fas fa-file-excel"></i></div>
+              <div class="prog-info">
+                <h4>MS Excel</h4>
+                <div class="prog-bar-container">
+                  <div class="prog-bar" data-width="80"></div>
+                </div>
+              </div>
+            </div>
+            <div class="prog-item">
+              <div class="prog-icon"><i class="fas fa-envelope"></i></div>
+              <div class="prog-info">
+                <h4>MS Outlook</h4>
+                <div class="prog-bar-container">
+                  <div class="prog-bar" data-width="85"></div>
+                </div>
+              </div>
+            </div>
+            <div class="prog-item">
+              <div class="prog-icon"><i class="fas fa-desktop"></i></div>
+              <div class="prog-info">
+                <h4>Electra (POS sistemi)</h4>
+                <div class="prog-bar-container">
+                  <div class="prog-bar" data-width="88"></div>
+                </div>
+              </div>
+            </div>
+            <div class="prog-item">
+              <div class="prog-icon"><i class="fas fa-cogs"></i></div>
+              <div class="prog-info">
+                <h4>MC (Management Console)</h4>
+                <div class="prog-bar-container">
+                  <div class="prog-bar" data-width="82"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- CONTACT SECTION -->
+  <div class="inner-section" id="section-contact">
+    <div class="inner-header">
+      <button class="back-btn" onclick="closeSection()"><i class="fas fa-arrow-left"></i> Geri</button>
+      <h2><i class="fas fa-address-card"></i> Əlaqə</h2>
+    </div>
+    <div class="inner-body">
+      <div class="contact-wrapper">
+        <div class="contact-photo-col">
+          <img src="images/chef-photo.jpg" alt="Ruslan Huseynov" class="contact-photo" />
+          <div class="contact-name-block">
+            <h2>Ruslan Huseynov</h2>
+            <p>Vidadi oğlu</p>
+            <span>31.07.1986</span>
+          </div>
+        </div>
+        <div class="contact-info-col">
+          <h3>Əlaqə Məlumatları</h3>
+          <div class="contact-items">
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fas fa-phone"></i></div>
+              <div>
+                <label>Telefon</label>
+                <a href="tel:+994555553588">055 555 35 88</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+              <div>
+                <label>E-poçt</label>
+                <a href="mailto:ruslan.cooking@gmail.com">ruslan.cooking@gmail.com</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div>
+                <label>Ünvan</label>
+                <span>Yasamal rayonu, 2-ci Alatava, ev 75 E, Bakı, Azərbaycan</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fas fa-birthday-cake"></i></div>
+              <div>
+                <label>Doğum tarixi</label>
+                <span>31 İyul 1986</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-cta">
+            <a href="tel:+994555553588" class="cta-btn primary">
+              <i class="fas fa-phone"></i> Zəng Et
+            </a>
+            <a href="mailto:ruslan.cooking@gmail.com" class="cta-btn secondary">
+              <i class="fas fa-envelope"></i> E-poçt Göndər
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+    <button class="lightbox-close" onclick="closeLightbox()"><i class="fas fa-times"></i></button>
+    <img id="lightbox-img" src="" alt="Böyük görüntü" />
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
